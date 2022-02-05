@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/ cursor-pointer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft - Official Home Page</title>
+  </head>
+  <body>
+    <header class="shadow-md">
+      <nav
+        class="navbar my-0 mx-auto px-4 py-3 flex justify-between items-center md:px-9 max-w-screen-2xl"
+      >
+        <div class="search-hamburger space-x-4 md:hidden">
+          <i
+            id="hamburger"
+            class="fal fa-bars text-xl cursor-pointer md:hidden"
+          ></i>
+          <i class="fal fa-search rotate-90 text-lg cursor-pointer"></i>
+        </div>
+        <div class="logo md:order-1 md:flex space-x-6">
+          <img src="logo.png" alt="" class="w-28 cursor-pointer" />
+          <div class="nav-items hidden lg:flex items-center space-x-6">
+            <div
+              class="option text-sm cursor-pointer hover:underline-offset-4 hover:underline"
+            >
+              Microsoft 365
+            </div>
+            <div
+              class="option text-sm cursor-pointer hover:underline-offset-4 hover:underline"
+            >
+              Office
+            </div>
+            <div
+              class="option text-sm cursor-pointer hover:underline-offset-4 hover:underline"
+            >
+              Windows
+            </div>
+            <div
+              class="option text-sm cursor-pointer hover:underline-offset-4 hover:underline"
+            >
+              Support
+            </div>
+          </div>
+        </div>
+        <div class="cart-user space-x-7 md:order-3 flex items-center">
+          <div
+            class="hidden all-microsoft md:inline-block mr-2 text-sm cursor-pointer"
+          >
+            <span class="hover:u hover:underline-offset-4 hover:underline"
+              >All Microsoft</span
+            >
+            <i class="text-sm ml-2 fal fa-chevron-down"></i>
+          </div>
+          <div class="search hidden md:inline-block cursor-pointer">
+            <span class="hover:underline-offset-4 hover:underline">Search</span>
+            <i class="fal fa-search rotate-90 text-sm cursor-pointer"></i>
+          </div>
+          <div class="cart cursor-pointer">
+            <span
+              class="hidden md:inline-block hover:underline-offset-4 hover:underline"
+              >Cart</span
+            >
+            <i class="fal fa-shopping-cart text-sm cursor-pointer"></i>
+          </div>
+          <div class="user space-x-1 cursor-pointer">
+            <span
+              class="hidden md:inline-block hover:underline-offset-4 hover:underline"
+              >M Maaz</span
+            >
+            <i class="fal fa-user text-xl cursor-pointer"></i>
+          </div>
+        </div>
+      </nav>
+      <nav id="ham-menu" class="ham-items hidden bg-gray-100 md:hidden">
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Microsoft 365
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Office
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Windows
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Support
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Software
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          PCs & Devices
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Entertainment
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Business
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Developer & IT
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          Other
+        </div>
+        <div class="option p-3 border-b-2 border-gray-200 cursor-pointer">
+          View Sitemap
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section mx-auto max-w-screen-2xl relative">
+        <img
+          class="mx-auto w-full md:h-[400px] lg:h-[600px] object-cover"
+          src="hero.webp"
+          alt=""
+        />
+        <div
+          class="hero-text py-10 px-5 bg-[#333333] text-center md:text-left md:bg-transparent md:absolute md:top-1/2 md:-translate-y-[50%] md:left-4 lg:left-12"
+        >
+          <button class="bg-yellow-500 px-3 py-1 font-semibold lg:text-xl">
+            New
+          </button>
+          <h1 class="text-white font-semibold text-xl lg:text-3xl my-2">
+            Design for life today - and tomorrow
+          </h1>
+          <p class="text-gray-100 w-96 mx-auto text-sm lg:text-base lg:mx-0">
+            The next-generation of games. Your goals. Friends and family.
+            Windows 11 was made to bring you closer to everything you love.
+          </p>
+          <button class="bg-white px-6 py-2 my-4 hover:bg-gray-200">
+            <span
+              class="hover:underline hover:underline-offset-2 hover:mr-2 transition-all font-semibold"
+              >See if your PC is ready</span
+            >
+            <i class="fal fa-chevron-right text-sm"></i>
+          </button>
+        </div>
+      </section>
+      <section
+        class="features mx-auto max-w-screen-2xl py-10 px-5 md:space-y-0 space-y-14 flex flex-col md:flex-row md:gap-5 md:items-center"
+      >
+        <div class="box-1 lg:flex lg:gap-5">
+          <div class="feature mb-16">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="softwares.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+          <div class="feature">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="edge.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+        </div>
+        <div class="box-2 lg:flex lg:gap-5">
+          <div class="feature mb-16">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="woman.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+          <div class="feature">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="tablet.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="outlook-section bg-[#E7E7E7] flex flex-col relative md:flex-row justify-between mx-auto max-w-screen-2xl md:justify-end"
+      >
+        <img class="lg:w-[900px]" src="outlook.webp" alt="" />
+        <div
+          class="outlook-text text-center py-24 md:text-left md:bg-transparent md:absolute md:top-1/2 md:-translate-y-[50%] md:left-4 lg:left-12"
+        >
+          <h2 class="font-semibold text-xl xl:text-3xl">
+            Outlook for iOS and Android
+          </h2>
+          <p class="xl:text-lg">Connect. Organise. Get things done</p>
+          <button class="bg-black text-white px-6 py-2 my-4">
+            <span
+              class="hover:underline hover:underline-offset-2 hover:mr-2 transition-all font-semibold"
+              >See if your PC is ready</span
+            >
+            <i class="fal fa-chevron-right text-sm"></i>
+          </button>
+        </div>
+      </section>
+      <div class="business-heading mx-auto max-w-screen-2xl px-5 pt-5">
+        <h2 class="font-semibold text-2xl">For Business</h2>
+      </div>
+      <section
+        class="features mx-auto max-w-screen-2xl py-10 px-5 md:space-y-0 space-y-14 flex flex-col md:flex-row md:gap-5 md:items-center"
+      >
+        <div class="box-1 lg:flex lg:gap-5">
+          <div class="feature mb-16">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="b1.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+          <div class="feature">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="b2.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+        </div>
+        <div class="box-2 lg:flex lg:gap-5">
+          <div class="feature mb-16">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="b3.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+          <div class="feature">
+            <img
+              class="w-full hover:opacity-[0.9] cursor-pointer transition-all"
+              src="b4.webp"
+              alt=""
+            />
+            <h2 class="my-2 font-semibold text-lg">Microsoft 365</h2>
+            <p class="mb-2">
+              Premium Office apps, extra cloud storage, advanced security, and
+              more – all in one convenient subscription.
+            </p>
+            <span
+              class="text-blue-600 font-semibold mr-4 hover:underline hover:underline-offset-2 cursor-pointer"
+              >For up to 6 people
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+            <span
+              class="text-blue-600 font-semibold hover:underline hover:underline-offset-2 cursor-pointer"
+              >For 1 person
+              <i class="fal fa-chevron-right text-sm"></i>
+            </span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="covid-badge mx-auto max-w-screen-2xl py-5 px-5 bg-[#E7E7E7] text-center"
+      >
+        <h2 class="text-2xl font-semibold my-2 xl:text-3xl">
+          Microsoft’s response to COVID-19
+        </h2>
+        <p class="text-base xl:text-lg">
+          Read how we’re responding to the COVID-19 outbreak, and get resources
+          to help.
+        </p>
+        <button class="mt-4">
+          <span
+            class="hover:underline hover:underline-offset-2 hover:mr-2 transition-all font-semibold"
+            >Learn More</span
+          >
+          <i class="fal fa-chevron-right text-sm"></i>
+        </button>
+      </section>
+      <div class="social-handles mx-auto max-w-screen-2xl py-10 flex pl-5">
+        <span class="mr-5">Follow Microsoft</span>
+        <img class="w-7 h-7 mr-3" src="facebook.svg" alt="" />
+        <img class="w-7 h-7 mr-3" src="twitter.svg" alt="" />
+        <img class="w-7 h-7" src="linkedin.svg" alt="" />
+      </div>
+    </main>
+    <footer class="py-10 px-5 bg-[#F2F2F2]">
+      <div
+        class="footer-container mx-auto md:flex md:justify-evenly lg:justify-start max-w-screen-2xl md:space-x-24"
+      >
+        <div class="links-1 lg:flex lg:space-x-24">
+          <ul class="my-16 flex flex-col space-y-5">
+            <li class="">
+              <h2 class="font-semibold">Microsoft Store</h2>
+            </li>
+            <li class="text-xs">Account profile</li>
+            <li class="text-xs">Download Center</li>
+            <li class="text-xs">Returns</li>
+            <li class="text-xs">Order tracking</li>
+          </ul>
+          <ul class="my-16 flex flex-col space-y-5">
+            <li>
+              <h2 class="font-semibold">Education</h2>
+            </li>
+            <li class="text-xs">Office 365 for schools</li>
+          </ul>
+          <ul class="my-16 flex flex-col space-y-5">
+            <li>
+              <h2 class="font-semibold">Enterprise</h2>
+            </li>
+            <li class="text-xs">Microsoft Azure</li>
+            <li class="text-xs">Microsoft partner resources</li>
+          </ul>
+        </div>
+        <div class="links-2 lg:flex lg:space-x-24">
+          <ul class="my-16 flex flex-col space-y-5">
+            <li>
+              <h2 class="font-semibold">Developer</h2>
+            </li>
+            <li class="text-xs">Microsoft Visual Studio</li>
+            <li class="text-xs">Developer Center</li>
+            <li class="text-xs">Channel 9</li>
+            <li class="text-xs">Microsoft 365 Dev Center</li>
+            <li class="text-xs">Microsoft 365 Developer Program</li>
+          </ul>
+          <ul class="my-16 flex flex-col space-y-5">
+            <li>
+              <h2 class="font-semibold">Company</h2>
+            </li>
+            <li class="text-xs">Careers</li>
+            <li class="text-xs">About Microsoft</li>
+            <li class="text-xs">Company news</li>
+            <li class="text-xs">Privacy at Microsoft</li>
+            <li class="text-xs">Investors</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="footer-line space-y-2 md:flex md:justify-between max-w-screen-2xl mx-auto"
+      >
+        <div class="location flex items-center">
+          <i class="far fa-globe-americas mr-2"></i>
+          <span class="text-xs">English (Pakistan)</span>
+        </div>
+        <ul class="flex flex-wrap">
+          <h2 class="text-xs mr-5">Contact Microsoft</h2>
+          <li class="text-xs mr-5">Privacy</li>
+          <li class="text-xs mr-5">Terms of use</li>
+          <li class="text-xs mr-5">Trademarks</li>
+          <li class="text-xs mr-5">About our ads</li>
+          <li class="text-xs">
+            <i class="fal fa-copyright"></i>
+            <span>Microsoft 2022</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
